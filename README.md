@@ -1,10 +1,17 @@
 # math
 
-This branch is created to create a react app with linters
+This branch is the initial phase of the single page app math magician 
+currently contains UI of the calculator built using react components
 
 ## Built With
 
 - React
+
+## Screenshot
+
+## Live link
+
+[Demo link]()
 
 ## Getting Started
 
