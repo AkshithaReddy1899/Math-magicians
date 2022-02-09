@@ -1,0 +1,35 @@
+.calculator {
+  width: 320px;
+  height: 320px;
+  margin: auto;
+  color: black;
+}
+
+.display {
+  width: 100%;
+  height: 50px;
+  text-align: right;
+  border: 1px solid black;
+  background: grey;
+  color: white;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+}
+
+button {
+  font-weight: bolder;
+  width: 80px;
+  height: 50px;
+}
+
+.zero {
+  grid-column: span 2;
+  width: 160px;
+}
+
+.operator {
+  background: orange;
+}
