@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 
 function Button(props) {
-  const { text } = props;
-  const { className } = props;
+  const { text, className } = props;
   return (
     <button type="button" className={className}>{text}</button>
   );
