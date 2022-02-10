@@ -1,13 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './styles/App.css';
 import Calculator from './components/Calculator';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
+class App extends PureComponent {
   render() {
     return (
       <div>
