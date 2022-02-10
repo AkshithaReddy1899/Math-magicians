@@ -27,8 +27,6 @@ class Calculator extends React.Component {
     }
     return (
       <div className="calculator">
-        <button type="button" handleclick={this.handleclick}>DTFGH</button>
-        <button type="button" id="AC" onClick={this.handleclick}>AC</button>
         <Display value={result} />
         <div className="button-container">
           <Button text="AC" handleclick={this.handleclick} />
