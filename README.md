@@ -1,6 +1,6 @@
 # math
 
-This branch is created to add events that make math operations to the calculator.
+This branch is created to refactor the code to use react hooks
 
 ## Built With
 
@@ -9,10 +9,6 @@ This branch is created to add events that make math operations to the calculator
 ## Screenshot
 
 ![React-App](https://user-images.githubusercontent.com/70577783/153175901-f2ca4888-24e3-41a5-b055-1da3d564cfb1.png)
-
-## Live link
-
-[Demo link](https://elastic-mahavira-a6db20.netlify.app/)
 
 ## Getting Started
 
