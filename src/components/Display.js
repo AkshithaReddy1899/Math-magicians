@@ -12,7 +12,7 @@ function Display(props) {
 }
 
 Display.defaultProps = {
-  value: 0,
+  value: '0',
 };
 
 Display.propTypes = {

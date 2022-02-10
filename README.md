@@ -1,7 +1,6 @@
 # math
 
-This branch is the initial phase of the single page app math magician 
-currently contains UI of the calculator built using react components
+This branch is created to add events that make math operations to the calculator.
 
 ## Built With
 
@@ -13,7 +12,7 @@ currently contains UI of the calculator built using react components
 
 ## Live link
 
-[Demo link](https://unruffled-goldstine-f97b88.netlify.app/)
+[Demo link](https://elastic-mahavira-a6db20.netlify.app/)
 
 ## Getting Started
 

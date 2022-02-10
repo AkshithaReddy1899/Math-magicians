@@ -1,10 +1,18 @@
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-function Button(props) {
-  const { text, className } = props;
-  return (
-    <button type="button" className={className}>{text}</button>
-  );
+class Button extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    const { text, className, handleClick } = this.props;
+    return (
+      <button type="button" className={className} value={text} onClick={() => handleClick(text)}>{text}</button>
+    );
+  }
 }
 
 Button.defaultProps = {
@@ -14,6 +22,7 @@ Button.defaultProps = {
 Button.propTypes = {
   text: PropTypes.string.isRequired,
   className: PropTypes.string,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Button;
