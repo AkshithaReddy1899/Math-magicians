@@ -8,9 +8,9 @@ class Button extends Component {
   }
 
   render() {
-    const { text, className, handleclick } = this.props;
+    const { text, className, handleClick } = this.props;
     return (
-      <button type="button" className={className} value={text} onClick={handleclick}>{text}</button>
+      <button type="button" className={className} value={text} onClick={() => handleClick(text)}>{text}</button>
     );
   }
 }
@@ -20,9 +20,9 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-  text: PropTypes.number.isRequired,
+  text: PropTypes.string.isRequired,
   className: PropTypes.string,
-  handleclick: PropTypes.func.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };
 
 export default Button;

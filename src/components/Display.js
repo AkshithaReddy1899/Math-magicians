@@ -12,11 +12,11 @@ function Display(props) {
 }
 
 Display.defaultProps = {
-  value: 0,
+  value: '0',
 };
 
 Display.propTypes = {
-  value: PropTypes.number,
+  value: PropTypes.string,
 };
 
 export default Display;
