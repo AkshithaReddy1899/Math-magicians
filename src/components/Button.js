@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Button = (props) => {
+const Button = (props) => {
   const { className, text, handleClick } = props;
   return (
     <button type="button" className={className} value={text} onClick={() => handleClick(text)}>{text}</button>
