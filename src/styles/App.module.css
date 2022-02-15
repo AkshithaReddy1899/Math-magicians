@@ -1,0 +1,57 @@
+.container {
+  margin-top: 100px;
+}
+
+/* NAV */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  padding: 5px;
+  font-size: 11px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItem {
+  color: rgba(0,212,255,1);
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+/* MAIN */
+
+.mainDescription {
+  margin-top: 40px;
+}
+
+/* HOME */
+
+.home {
+  font-size: 1rem;
+  padding: 5px 20px;
+}
+
+.home h1 {
+  font-size: 1.6rem;
+}
+
+/* Quote */
+
+.quote {
+  text-align: center;
+  width: 80vw;
+  height: 300px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #292525, #312c2c);
+  box-shadow:  36px 36px 72px #272323,
+             -36px -36px 72px #352f2f;
+}
