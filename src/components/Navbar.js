@@ -1,18 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import styles from '../styles/App.module.css';
 
 const Navbar = () => {
-  console.log('HI');
   const links = [
     {
       id: 1,
-      path: '/home',
+      path: '/',
       text: 'Home',
     },
     {
       id: 2,
-      path: '/',
+      path: '/calculator',
       text: 'Calculator',
     },
     {
@@ -23,15 +21,14 @@ const Navbar = () => {
   ];
   return (
     <header>
-      <nav className={styles.nav}>
+      <nav className="nav">
         <h1>Math Magicians</h1>
-        <ul className={styles.navList}>
+        <ul className="navlist">
           {links.map((link) => (
-            <li className={styles.navItem} key={link.id}>
+            <li className="navitem" key={link.id}>
               <NavLink
                 to={link.path}
-                className={styles.navItem}
-                activeClassName="active-link"
+                className="navitem"
               >
                 {link.text}
               </NavLink>

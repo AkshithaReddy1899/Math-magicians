@@ -5,13 +5,8 @@
 }
 
 body {
-  width: 100vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   height: 100vh;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background: rgb(119, 113, 113);
+  background: linear-gradient(#888, #555, #000);
   overflow-x: hidden;
-}
-
-.active-link {
-  color: whitesmoke;
 }

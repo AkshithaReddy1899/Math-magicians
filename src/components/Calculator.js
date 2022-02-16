@@ -27,28 +27,31 @@ const Calculator = () => {
   }
 
   return (
-    <div className="calculator">
-      <Display value={result} />
-      <div className="button-container">
-        <Button text="AC" handleClick={handleClick} />
-        <Button text="+/-" handleClick={handleClick} />
-        <Button text="%" handleClick={handleClick} />
-        <Button text="÷" handleClick={handleClick} className="operator" />
-        <Button text="7" handleClick={handleClick} />
-        <Button text="8" handleClick={handleClick} />
-        <Button text="9" handleClick={handleClick} />
-        <Button text="x" handleClick={handleClick} className="operator" />
-        <Button text="4" handleClick={handleClick} />
-        <Button text="5" handleClick={handleClick} />
-        <Button text="6" handleClick={handleClick} />
-        <Button text="-" handleClick={handleClick} className="operator" />
-        <Button text="1" handleClick={handleClick} />
-        <Button text="2" handleClick={handleClick} />
-        <Button text="3" handleClick={handleClick} />
-        <Button text="+" handleClick={handleClick} className="operator" />
-        <Button text="0" handleClick={handleClick} className="zero" />
-        <Button text="." handleClick={handleClick} />
-        <Button text="=" handleClick={handleClick} className="operator" />
+    <div className="calculatorpage">
+      <p>Let&apos;s do some math!</p>
+      <div className="calculator">
+        <Display value={result} />
+        <div className="button-container">
+          <Button text="AC" handleClick={handleClick} />
+          <Button text="+/-" handleClick={handleClick} />
+          <Button text="%" handleClick={handleClick} />
+          <Button text="÷" handleClick={handleClick} className="operator" />
+          <Button text="7" handleClick={handleClick} />
+          <Button text="8" handleClick={handleClick} />
+          <Button text="9" handleClick={handleClick} />
+          <Button text="x" handleClick={handleClick} className="operator" />
+          <Button text="4" handleClick={handleClick} />
+          <Button text="5" handleClick={handleClick} />
+          <Button text="6" handleClick={handleClick} />
+          <Button text="-" handleClick={handleClick} className="operator" />
+          <Button text="1" handleClick={handleClick} />
+          <Button text="2" handleClick={handleClick} />
+          <Button text="3" handleClick={handleClick} />
+          <Button text="+" handleClick={handleClick} className="operator" />
+          <Button text="0" handleClick={handleClick} className="zero" />
+          <Button text="." handleClick={handleClick} />
+          <Button text="=" handleClick={handleClick} className="operator" />
+        </div>
       </div>
     </div>
   );

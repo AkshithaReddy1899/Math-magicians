@@ -3,14 +3,13 @@ import React from 'react';
 import Home from './Home';
 import Calculator from './Calculator';
 import Quote from './Quote';
-import styles from '../styles/App.module.css';
 
 function Main() {
   return (
-    <div className={styles.container}>
+    <div className="container">
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/" element={<Calculator />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>
     </div>
