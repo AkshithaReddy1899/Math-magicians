@@ -1,6 +1,6 @@
-# math
+# math-magicians
 
-This branch is created to refactor the code to use react hooks
+Math magicians is a website for all fans of mathematics. It is a single page app (SPA) that allows users to make simple calculations and read a random math-related quote.
 
 ## Built With
 
@@ -8,7 +8,9 @@ This branch is created to refactor the code to use react hooks
 
 ## Screenshot
 
-![React-App](https://user-images.githubusercontent.com/70577783/153175901-f2ca4888-24e3-41a5-b055-1da3d564cfb1.png)
+![React-App](https://user-images.githubusercontent.com/70577783/154230457-6eca458c-0ea9-4748-917a-f00f6d186d39.png)
+![React-App (2)](https://user-images.githubusercontent.com/70577783/154230445-d00c9fcc-6f67-431b-a0e7-dc292df4b034.png)
+![React-App (1)](https://user-images.githubusercontent.com/70577783/154230454-2c962b7e-f60a-4a7c-852d-40149f7a39c7.png)
 
 ## Getting Started
 

@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import '../styles/App.css';
 
 function Display(props) {
   const { value } = props;
