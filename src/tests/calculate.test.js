@@ -31,7 +31,7 @@ describe('Testing for buttons', () => {
     expect(result.total).toBe('0');
   });
 
-  test('Test for ÷  button', () => {
+  test('Test for ÷ button', () => {
     const obj = {
       total: 1,
       next: 2,
