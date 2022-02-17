@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/calculator.css';
 import Display from './Display';
 import Button from './Button';
-import calculate from '../logic/calculator';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [state, setState] = useState({

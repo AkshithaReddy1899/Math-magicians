@@ -39,6 +39,7 @@
 
 button {
   font-weight: bolder;
+  cursor: pointer;
   width: 60px;
   height: 50px;
   margin: 2px;
