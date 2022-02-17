@@ -48,8 +48,8 @@ describe('Testing for buttons', () => {
       operation: 'x',
     };
     const result = calculate(obj, 'x');
-    expect(parseInt(result.total)).toBe(2);
-  })
+    expect(result.total).toBe('2');
+  });
 
   test('Test for - button', () => {
     const obj = {
@@ -58,9 +58,9 @@ describe('Testing for buttons', () => {
       operation: '-',
     };
     const result = calculate(obj, '-');
-    expect(parseInt(result.total)).toBe(1);
+    expect(result.total).toBe('1');
   });
-  
+
   test('Test for + button', () => {
     const obj = {
       total: 1,
@@ -68,6 +68,6 @@ describe('Testing for buttons', () => {
       operation: '+',
     };
     const result = calculate(obj, '+');
-    expect(parseInt(result.total)).toBe(3);
+    expect(result.total).toBe('3');
   });
-})
+});

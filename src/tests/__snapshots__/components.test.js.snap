@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for components Calculator renders correctly 1`] = `
+<div
+  className="calculatorpage"
+>
+  <p>
+    Let's do some math!
+  </p>
+  <div
+    className="calculator"
+  >
+    <h1
+      className="display"
+    >
+      0
+    </h1>
+    <div
+      className="button-container"
+    >
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="AC"
+      >
+        AC
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="+/-"
+      >
+        +/-
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="%"
+      >
+        %
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="÷"
+      >
+        ÷
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="7"
+      >
+        7
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="8"
+      >
+        8
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="9"
+      >
+        9
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="x"
+      >
+        x
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="4"
+      >
+        4
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="5"
+      >
+        5
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="6"
+      >
+        6
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="-"
+      >
+        -
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="1"
+      >
+        1
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="2"
+      >
+        2
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="3"
+      >
+        3
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="+"
+      >
+        +
+      </button>
+      <button
+        className="zero"
+        onClick={[Function]}
+        type="button"
+        value="0"
+      >
+        0
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+        value="."
+      >
+        .
+      </button>
+      <button
+        className="operator"
+        onClick={[Function]}
+        type="button"
+        value="="
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Test for components Home renders correctly 1`] = `
+<div
+  className="home"
+>
+  <h1>
+    Welcome to our page!
+  </h1>
+  <div
+    className="maindescription"
+  >
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magni itaque provi
+    </p>
+    <br />
+    t atque consequuntur possimus quam, repellat at, soluta sunt maiores facere rerum
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Test for components Quote renders correctly 1`] = `
+<div
+  className="quote"
+>
+  <p>
+    <span>
+      Numbers have life; they are not just symbols on paper
+    </span>
+  </p>
+  <b>
+    __Shakuntala Devi.
+  </b>
+</div>
+`;
