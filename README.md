@@ -17,6 +17,8 @@ Math magicians is a website for all fans of mathematics. It is a single page app
 Deployed on heroku and netlify
 
 Heroku - [live demo](https://math--magician.herokuapp.com/)
+
+
 Netlify - [Live demo](https://gracious-mcclintock-366a66.netlify.app/)
 
 ## Getting Started
